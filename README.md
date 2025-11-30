@@ -3,7 +3,7 @@
 A lightweight full-stack tool for analyzing and predicting the behavior of AI-generated code.
 It includes a browser-based interface for entering code and a Node.js backend that processes the input and returns prediction data.
 
-✨ Features
+**✨ Features**
 
 Interactive UI for submitting code snippets
 
@@ -15,7 +15,7 @@ System execution-flow diagram included
 
 Zero build tooling required
 
-📁 Project Structure
+**📁 Project Structure**
 AI Code Behaviour Predictor/
 │
 ├── backend/
@@ -28,8 +28,8 @@ AI Code Behaviour Predictor/
     ├── index.html
     ├── script.js
     └── style.css
-
-🛠 Requirements
+**
+🛠 Requirements**
 
 Node.js v16+
 
@@ -37,12 +37,12 @@ npm or yarn
 
 Any modern web browser
 
-🚀 Installation & Setup
-1. Install Backend Dependencies
+**🚀 Installation & Setup**
+**1. Install Backend Dependencies**
 cd backend
 npm install
 
-2. Start the Server
+**2. Start the Server**
 node server.js
 
 
@@ -50,14 +50,14 @@ Server runs at:
 
 http://localhost:3000
 
-3. Open the Frontend
+**3. Open the Frontend**
 
 Open:
 
 frontend/index.html
 
-🔍 How It Works
-Frontend
+**🔍 How It Works**
+**Frontend**
 
 Sends user-entered code to the backend
 
@@ -65,7 +65,7 @@ Displays returned predictions
 
 Uses plain JavaScript for simplicity
 
-Backend
+**Backend**
 
 Express-based API
 
@@ -75,19 +75,19 @@ Contains an execution-flow diagram for reference
 
 Execution Flow Diagram
 
-Located at:
+**Located at:**
 
 backend/static/execution_flow.png
 
-🧩 Customization
+**🧩 Customization**
 Prediction Logic
 
-Edit:
+**Edit:**
 
 backend/server.js
 
 
-Plug in:
+**Plug in:**
 
 ML models
 
@@ -97,10 +97,10 @@ Rule-based engines
 
 Custom analyzers
 
-Frontend
-
+**Frontend**
+**
 Upgrade using frameworks/libraries if needed:
-
+**
 React, Vue, Svelte
 
 Monaco editor
@@ -109,7 +109,7 @@ Tailwind or Bootstrap
 
 API Extensions
 
-Add new endpoints for:
+**Add new endpoints for:**
 
 Batch predictions
 
@@ -119,7 +119,7 @@ Logs or analytics
 
 Mode switching
 
-📌 Notes
+**📌 Notes**
 
 Remove node_modules before pushing to a repo (.gitignore recommended).
 
