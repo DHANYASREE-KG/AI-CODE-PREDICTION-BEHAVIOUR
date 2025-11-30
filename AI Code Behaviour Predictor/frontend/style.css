@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 50%;
+    margin: 5% auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    animation: slideIn 1s ease-in-out;
+}
+
+/* Textarea */
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ffcc00;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    resize: none;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Analyze Code Button */
+button:nth-child(2) {
+    background: #ff5733;
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background: #e64a19;
+}
+
+/* Apply Fix Button */
+#applyFixBtn {
+    background: #4caf50;
+    color: white;
+    display: none;
+}
+
+#applyFixBtn:hover {
+    background: #388e3c;
+}
+
+/* Output Box */
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
